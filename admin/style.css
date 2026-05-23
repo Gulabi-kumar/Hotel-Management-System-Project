@@ -1,0 +1,84 @@
+/* Analytics Dashboard Styles */
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.stat-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.stat-card .number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.stat-card small {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Performance indicators */
+.perf-excellent {
+  color: #27ae60;
+}
+.perf-good {
+  color: #f39c12;
+}
+.perf-poor {
+  color: #e74c3c;
+}
+
+/* Growth indicators */
+.growth-up {
+  color: #27ae60;
+}
+.growth-down {
+  color: #e74c3c;
+}
+
+/* Export buttons */
+.export-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.export-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.export-btn:hover {
+  opacity: 0.9;
+  color: white;
+}
